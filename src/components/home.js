@@ -22,8 +22,7 @@ export default class Home extends React.Component {
                                     <div class="content">
                                         <h3>Why Choose Brain Speller?</h3>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                            Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                                            We provide high performance and many features from one application and one headset .
                                         </p>
                                         <div class="text-center">
                                             <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -36,22 +35,24 @@ export default class Home extends React.Component {
                                             <div class="col-xl-4 d-flex align-items-stretch">
                                                 <div class="icon-box mt-4 mt-xl-0">
                                                     <i class="bx bx-receipt"></i>
-                                                    <h4>Corporis voluptates sit</h4>
-                                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                                    <h4>Guarantee</h4>
+                                                    <p>Guarantee 3 Years of Software Updates and 6 months for hardware</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 d-flex align-items-stretch">
                                                 <div class="icon-box mt-4 mt-xl-0">
                                                     <i class="bx bx-cube-alt"></i>
-                                                    <h4>Ullamco laboris ladore pan</h4>
-                                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                                    <h4>Features</h4>
+                                                    <p> Our product providing you the ability to write without your hands and controlling
+                                                        your smart home using only your mind and do many more other things .     
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 d-flex align-items-stretch">
                                                 <div class="icon-box mt-4 mt-xl-0">
                                                     <i class="bx bx-images"></i>
-                                                    <h4>Labore consequatur</h4>
-                                                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                                    <h4>Who can use it ?</h4>
+                                                    <p>All people can use it especaially the paralyzed people and who want to make his life easier !</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,24 +73,28 @@ export default class Home extends React.Component {
 
                                 <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
                                     <h3>About Brain Speller</h3>
-                                    <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+                                    <p> users need to focus on the target letter or object on the application we developed
+                                        by using Hybrid BCI combine SSVEP and p300 speller .
+                                        and flashes to make visual stimuli for user's brain, while using 
+                                        multidimensional EEG signals from the EEG headset (result from the visual stimuli), so we get BCI commands 
+                                        and perform it </p>
 
                                     <div class="icon-box">
                                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <div class="icon"><i class="bx bx-gift"></i></div>
-                                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                                        <h4 class="title"><a href="">Secure</a></h4>
+                                        <p class="description"> we provide different ways of security like passwords and finger prints </p>
                                     </div>
 
                                     <div class="icon-box">
                                         <div class="icon"><i class="bx bx-atom"></i></div>
-                                        <h4 class="title"><a href="">Dine Pad</a></h4>
-                                        <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                                        <h4 class="title"><a href="">Performance</a></h4>
+                                        <p class="description">Thanks to our hybrid Bci we guarantee high accuracy and fast response that will move you to another level</p>
+                                    </div>
+
+                                    <div class="icon-box">
+                                        <div class="icon"><i class="bx bx-gift"></i></div>
+                                        <h4 class="title"><a href="">Gifts</a></h4>
+                                        <p class="description"> If you order 2 products you wil get 30% off</p>
                                     </div>
 
                                 </div>
@@ -105,55 +110,55 @@ export default class Home extends React.Component {
 
                             <div class="section-title">
                                 <h2>Services</h2>
-                                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                                <p> We are presenting our features and services that our product providing to you and we will update it and add more in the future ! </p>
                             </div>
 
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div class="icon-box">
                                         <div class="icon"><i class="fas fa-heartbeat"></i></div>
-                                        <h4><a href="">Lorem Ipsum</a></h4>
-                                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                        <h4><a href="">communication</a></h4>
+                                        <p>Ability to communicate with others either  text or voice by using only your mind </p>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                                     <div class="icon-box">
                                         <div class="icon"><i class="fas fa-pills"></i></div>
-                                        <h4><a href="">Sed ut perspiciatis</a></h4>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                        <h4><a href="">Smart home</a></h4>
+                                        <p>Usability in controlling smart devices remotely to provide comfortable environment for all people. </p>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                                     <div class="icon-box">
                                         <div class="icon"><i class="fas fa-hospital-user"></i></div>
-                                        <h4><a href="">Magni Dolores</a></h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                        <h4><a href="">Multiple tasks</a></h4>
+                                        <p>Provide high performance for normal people to handle dealing with multiple tasks.</p>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                                     <div class="icon-box">
                                         <div class="icon"><i class="fas fa-dna"></i></div>
-                                        <h4><a href="">Nemo Enim</a></h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                        <h4><a href="">Connected to internet</a></h4>
+                                        <p>Assisting users to do their written work or in solving MCQ examEnabling or to search on Google.</p>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                                     <div class="icon-box">
                                         <div class="icon"><i class="fas fa-wheelchair"></i></div>
-                                        <h4><a href="">Dele cardo</a></h4>
-                                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                                        <h4><a href="">Be more secure</a></h4>
+                                        <p>Facilitate the usage of ATM in a secure way</p>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                                     <div class="icon-box">
                                         <div class="icon"><i class="fas fa-notes-medical"></i></div>
-                                        <h4><a href="">Divera don</a></h4>
-                                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                                        <h4><a href="">Emergency</a></h4>
+                                        <p>Providing icon for emergency calls and escort chat.</p>
                                     </div>
                                 </div>
 
@@ -209,14 +214,14 @@ export default class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="mt-4 mb-4 d-flex justify-content-between">  <button class="btn btn-success px-3">Pay $840</button> </div>
+                                        <div class="mt-4 mb-4 d-flex justify-content-between">  <button class="btn btn-success px-3">Pay $549<span>.99</span></button> </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="card card-blue p-3 text-white mb-3"> <span>You have to pay</span>
                                             <div class="d-flex flex-row align-items-end mb-3">
                                                 <h1 class="mb-0 yellow">$549</h1> <span>.99</span>
                                             </div> <span>Enjoy all the features and perk after you complete the payment</span> <a href="#" class="yellow decoration">Know all the features</a>
-                                            <div class="hightlight"> <span>100% Guaranteed support and update for the next 5 years.</span> </div>
+                                            <div class="hightlight"> <span>100% Guaranteed support and update for the next 3 years.</span> </div>
                                         </div>
                                     </div>
                                 </div>
@@ -232,7 +237,8 @@ export default class Home extends React.Component {
 
                             <div class="section-title">
                                 <h2>Contact</h2>
-                                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                                <p>If you’re experiencing difficulties setting up your product or in ordering
+                                     our product or have any question to us ,please go and contact us !</p>
                             </div>
                         </div>
 

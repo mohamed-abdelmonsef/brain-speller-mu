@@ -5,12 +5,8 @@ export default class Header extends React.Component {
         return (
             <div >
 
-                <div id="topbar" class="d-flex align-items-center fixed-top">
+                <div id="topbar" class="d-flex align-items-center float">
                     <div class="container d-flex justify-content-between">
-                        <div class="contact-info d-flex align-items-center">
-                            <i class="bi bi-envelope"></i> <a href="contact@example.com">contact@example.com</a>
-                            <i class="bi bi-phone"></i> +20 0189 55488 55
-                        </div>
                         <div class="d-none d-lg-flex social-links align-items-center">
                             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -19,7 +15,7 @@ export default class Header extends React.Component {
                         </div>
                     </div>
                 </div>
-                <header id="header" class="fixed-top">
+                <header id="header" class="float">
                     <div class="container d-flex align-items-center">
 
                         <h1 class="logo me-auto"><a href="index.html">Brain Speller</a></h1>
