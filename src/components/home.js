@@ -116,7 +116,7 @@ export default class Home extends React.Component {
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div class="icon-box">
-                                        <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                                        <div class="icon"><i class="fas fa-comment"></i></div>
                                         <h4><a href="">communication</a></h4>
                                         <p>Ability to communicate with others either  text or voice by using only your mind </p>
                                     </div>
@@ -124,7 +124,7 @@ export default class Home extends React.Component {
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                                     <div class="icon-box">
-                                        <div class="icon"><i class="fas fa-pills"></i></div>
+                                        <div class="icon"><i class="fas fa-home"></i></div>
                                         <h4><a href="">Smart home</a></h4>
                                         <p>Usability in controlling smart devices remotely to provide comfortable environment for all people. </p>
                                     </div>
@@ -132,7 +132,7 @@ export default class Home extends React.Component {
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                                     <div class="icon-box">
-                                        <div class="icon"><i class="fas fa-hospital-user"></i></div>
+                                        <div class="icon"><i class="fas fa-file"></i></div>
                                         <h4><a href="">Multiple tasks</a></h4>
                                         <p>Provide high performance for normal people to handle dealing with multiple tasks.</p>
                                     </div>
@@ -140,7 +140,7 @@ export default class Home extends React.Component {
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                                     <div class="icon-box">
-                                        <div class="icon"><i class="fas fa-dna"></i></div>
+                                        <div class="icon"><i class="fas fa-wifi"></i></div>
                                         <h4><a href="">Connected to internet</a></h4>
                                         <p>Assisting users to do their written work or in solving MCQ examEnabling or to search on Google.</p>
                                     </div>
@@ -148,9 +148,9 @@ export default class Home extends React.Component {
 
                                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                                     <div class="icon-box">
-                                        <div class="icon"><i class="fas fa-wheelchair"></i></div>
+                                        <div class="icon"><i class="fas fa-key"></i></div>
                                         <h4><a href="">Be more secure</a></h4>
-                                        <p>Facilitate the usage of ATM in a secure way</p>
+                                        <p>Facilitate the usage of ATM in a secure way or writing your passwords</p>
                                     </div>
                                 </div>
 
