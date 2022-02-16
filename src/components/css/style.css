@@ -800,6 +800,11 @@ input::-webkit-inner-spin-button {
 
 /* start css of footer */
 
+#footer {
+  background: rgb(94, 160, 214);
+  padding-top: 7px;
+}
+
 
 
 
