@@ -6,48 +6,7 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
   }
-/* Topbaar */
 
-  #topbar {
-    background: #fff;
-    height: 40px;
-    font-size: 14px;
-    transition: all 0.5s;
-    z-index: 996;
-  }
-  #topbar.topbar-scrolled {
-    top: -40px;
-  }
-  #topbar .contact-info a {
-    line-height: 1;
-    color: #444444;
-    transition: 0.3s;
-  }
-  #topbar .contact-info a:hover {
-    color: #1977cc;
-  }
-  #topbar .contact-info i {
-    color: #1977cc;
-    padding-right: 4px;
-    margin-left: 15px;
-    line-height: 0;
-  }
-  #topbar .contact-info i:first-child {
-    margin-left: 0;
-  }
-  #topbar .social-links a {
-    color: #437099;
-    padding-left: 15px;
-    display: inline-block;
-    line-height: 1px;
-    transition: 0.3s;
-  }
-  #topbar .social-links a:hover {
-    color: #1977cc;
-  }
-  #topbar .social-links a:first-child {
-    border-left: 0;
-  }
 
 /*start of Header */
   #header {
@@ -62,18 +21,18 @@
     top: 0;
   }
   #header .logo {
-    font-size: 40px;
     margin: 0;
     padding: 0;
     line-height: 1;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    font-family: "Poppins", sans-serif;
   }
   #header .logo a {
     color: #2c4964;
   text-decoration: none;    
     
+  }
+  #header .logo img{
+    width: 200px;
+    height: 100px;
   }
 
 
@@ -107,11 +66,13 @@
     transition: 0.3s;
     border-bottom: 2px solid #fff;
     padding: 5px 2px;
+    
   }
   .navbar a i, .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
+    
   }
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
     color: #1977cc;
@@ -185,8 +146,7 @@
 
  
 
-/* start css of home */
-
+/* -------start css of home -----*/
 
 
 
@@ -196,6 +156,7 @@
     background-image: url("../../../public/img/BG.jpg");
     background-size: cover;
     margin-bottom: -200px;
+    
   }
   #hero .container {
     position: relative;
@@ -221,10 +182,11 @@
     border-radius: 50px;
     transition: 0.5s;
     color: #fff;
-    background: #7EB9E5;
+    background: #7bae85;
+    text-decoration: none;
   }
   #hero .btn-get-started:hover {
-    background: #3291e6;
+    background: #7bae85;
   }
   @media (min-width: 1024px) {
     #hero {
@@ -295,7 +257,7 @@
     display: block;
     width: 40px;
     height: 3px;
-    background: #7EB9E5;
+    background: #7bae85;
     bottom: 0;
     left: calc(50% - 20px);
   }
@@ -304,7 +266,7 @@
   }
   .why-us .content {
     padding: 30px;
-    background: #7EB9E5;
+    background: #7bae85;
     border-radius: 4px;
     color: #fff;
   }
@@ -323,12 +285,13 @@
     color: #fff;
     border-radius: 50px;
     transition: all ease-in-out 0.4s;
+    text-decoration: none;
   }
   .why-us .content .more-btn i {
     font-size: 14px;
   }
   .why-us .content .more-btn:hover {
-    color: #7EB9E5;
+    color: #7bae85;
     background: #fff;
   }
   .why-us .icon-boxes .icon-box {
@@ -341,7 +304,7 @@
   }
   .why-us .icon-boxes .icon-box i {
     font-size: 40px;
-    color: #7EB9E5;
+    color: #7bae85;
     margin-bottom: 30px;
   }
   .why-us .icon-boxes .icon-box h4 {
@@ -357,7 +320,7 @@
 
   .about .icon-boxes h4 {
     font-size: 18px;
-    color: #4b7dab;
+    color: #7bae85;
     margin-bottom: 15px;
   }
   .about .icon-boxes h3 {
@@ -376,17 +339,17 @@
     justify-content: center;
     width: 64px;
     height: 64px;
-    border: 2px solid #8dc2f1;
+    border: 2px solid #7bae85;
     border-radius: 50px;
     transition: 0.5s;
   }
   .about .icon-box .icon i {
-    color: #7EB9E5;
+    color: #7bae85;
     font-size: 32px;
   }
   .about .icon-box:hover .icon {
-    background: #7EB9E5;
-    border-color: #7EB9E5;
+    background: #7bae85;
+    border-color: #7bae85;
   }
   .about .icon-box:hover .icon i {
     color: #fff;
@@ -400,9 +363,10 @@
   .about .icon-box .title a {
     color: #343a40;
     transition: 0.3s;
+    text-decoration: none;
   }
   .about .icon-box .title a:hover {
-    color: #7EB9E5;
+    color: #7bae85;
   }
   .about .icon-box .description {
     margin-left: 85px;
@@ -417,7 +381,7 @@
   .about .play-btn {
     width: 94px;
     height: 94px;
-    background: radial-gradient(#7EB9E5 50%, rgba(25, 119, 204, 0.4) 52%);
+    background: radial-gradient(#7bae85 50%, rgba(62, 165, 76, 0.4) 52%);
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -456,13 +420,13 @@
     animation-timing-function: steps;
     opacity: 1;
     border-radius: 50%;
-    border: 5px solid rgba(25, 119, 204, 0.7);
+    border: 5px solid #7bae85;
     top: -15%;
     left: -15%;
     background: rgba(198, 16, 0, 0);
   }
   .about .play-btn:hover::after {
-    border-left: 15px solid #1977cc;
+    border-left: 15px solid #7bae85;
     transform: scale(20);
   }
   .about .play-btn:hover::before {
@@ -519,7 +483,7 @@
     margin: 0 auto;
     width: 64px;
     height: 64px;
-    background: #7EB9E5;
+    background: #7bae85;
     border-radius: 5px;
     transition: all 0.3s ease-out 0s;
     display: flex;
@@ -539,7 +503,7 @@
     top: -8px;
     height: 100%;
     width: 100%;
-    background: #badaf7;
+    background: #b5dbbd;
     border-radius: 5px;
     transition: all 0.3s ease-out 0s;
     transform: translateZ(-1px);
@@ -551,6 +515,7 @@
   }
   .services .icon-box h4 a {
     color: #2c4964;
+    text-decoration: none;
   }
   .services .icon-box p {
     line-height: 24px;
@@ -558,24 +523,23 @@
     margin-bottom: 0;
   }
   .services .icon-box:hover {
-    background: #7EB9E5;
-    border-color: #7EB9E5;
+    background: #7bae85;
+    border-color: #7bae85;
   }
   .services .icon-box:hover .icon {
     background: #fff;
   }
   .services .icon-box:hover .icon i {
-    color: #7EB9E5;
+    color: #7bae85;
   }
   .services .icon-box:hover .icon::before {
-    background: #7EB9E5;
+    background: #7bae85;
   }
   .services .icon-box:hover h4 a, .services .icon-box:hover p {
     color: #fff;
   }
 
 /* Start of payment */
-
 
 
 .card {
@@ -589,15 +553,17 @@
     border: none;
     font-weight: 600
 }
-
+.section-bg{
+background-color: #e2f0e4;
+}
 .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #7EB9E5;
+    border-color: #7bae85;
     outline: 0;
     box-shadow: none;
     border-radius: 0px;
-    border-bottom: 2px solid #7EB9E5 !important
+    border-bottom: 2px solid #7bae85 !important
 }
 
 .inputbox {
@@ -618,7 +584,7 @@
     top: 13px;
     right: 8px;
     transition: 0.5s;
-    color: #7EB9E5
+    color: #7bae85
 }
 
 input::-webkit-outer-spin-button,
@@ -638,11 +604,11 @@ input::-webkit-inner-spin-button {
 }
 
 .card-blue {
-    background-color: #7EB9E5
+    background-color: #7bae85
 }
 
 .hightlight {
-    background-color: #7EB9E5;
+    background-color: #7bae85;
     padding: 10px;
     border-radius: 10px;
     margin-top: 15px;
@@ -660,14 +626,14 @@ input::-webkit-inner-spin-button {
 
 .btn-success {
     color: #fff;
-    background-color: #7EB9E5;
-    border-color: #7EB9E5
+    background-color: #7bae85;
+    border-color: #7bae85
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #7EB9E5;
-    border-color: #7EB9E5
+    background-color: #7bae85;
+    border-color: #7bae85
 }
 
 .decoration:hover {
@@ -677,43 +643,7 @@ input::-webkit-inner-spin-button {
 
 /* end of payment */
 
-.contact .info {
-    width: 100%;
-    background: #fff;
-  }
-  .contact .info i {
-    font-size: 20px;
-    color: #1977cc;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #d6e9fa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-  }
-  .contact .info h4 {
-    padding: 0 0 0 60px;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #2c4964;
-  }
-  .contact .info p {
-    padding: 0 0 0 60px;
-    margin-bottom: 0;
-    font-size: 14px;
-    color: #4b7dab;
-  }
-  .contact .info .email, .contact .info .phone {
-    margin-top: 40px;
-  }
-  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #1977cc;
-    color: #fff;
-  }
+/* ---start of contact ---*/
   .contact .php-email-form {
     width: 100%;
     background: #fff;
@@ -740,24 +670,7 @@ input::-webkit-inner-spin-button {
     padding: 15px;
     font-weight: 600;
   }
-  .contact .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-  }
-  .contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
-  }
+  
   .contact .php-email-form input, .contact .php-email-form textarea {
     border-radius: 0;
     box-shadow: none;
@@ -770,7 +683,7 @@ input::-webkit-inner-spin-button {
     padding: 10px 12px;
   }
   .contact .php-email-form button[type=submit] {
-    background: #1977cc;
+    background: #7bae85;
     border: 0;
     padding: 10px 35px;
     color: #fff;
@@ -778,33 +691,43 @@ input::-webkit-inner-spin-button {
     border-radius: 50px;
   }
   .contact .php-email-form button[type=submit]:hover {
-    background: #1c84e3;
+    background: #7bae85;
   }
-  @-webkit-keyframes animate-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes animate-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+ 
   
 
 /* start css of footer */
 
-#footer {
-  background: rgb(94, 160, 214);
-  padding-top: 7px;
-}
 
+#footer {
+  color: #444444;
+  font-size: 14px;
+  background: #e2f0e4;
+  padding-top: 7px;
+
+}
+#topfooter{
+  padding-left: 80px;
+}
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #7bae85;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links a:hover {
+  background: #aed4b4;
+  color: #fff;
+  text-decoration: none;
+}
 
 
 

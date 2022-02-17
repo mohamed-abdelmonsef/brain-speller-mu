@@ -6,7 +6,7 @@ export default class Home extends React.Component {
             <div >
                 <section id="hero" class="d-flex align-items-center" s>
                     <div class="container">
-                        <h1>Welcome to <br />Brain Speller</h1>
+                        <h1>Here where <br/> the brain can talk</h1>
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
                     </div>
                 </section>
@@ -52,7 +52,7 @@ export default class Home extends React.Component {
                                                 <div class="icon-box mt-4 mt-xl-0">
                                                     <i class="bx bx-images"></i>
                                                     <h4>Who can use it ?</h4>
-                                                    <p>All people can use it especaially the paralyzed people and who want to make his life easier !</p>
+                                                    <p>Everyone can use it for an easier life, especially for people suffer with their mobility !</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,12 +72,10 @@ export default class Home extends React.Component {
                                 </div>
 
                                 <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-                                    <h3>About Brain Speller</h3>
-                                    <p> users need to focus on the target letter or object on the application we developed
-                                        by using Hybrid BCI combine SSVEP and p300 speller .
-                                        and flashes to make visual stimuli for user's brain, while using 
-                                        multidimensional EEG signals from the EEG headset (result from the visual stimuli), so we get BCI commands 
-                                        and perform it </p>
+                                    <h3>How Brain Speller Work</h3>
+                                    <p> Our system is based on Brain Computer Interface, We translate the brain signals into machine commands through a cycle.
+                                        All we need from user is to focus on the target letter in our software keyboard while using EEG headset so we can get 
+                                        bci commands that are used in many applications. </p>
 
                                     <div class="icon-box">
                                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
@@ -142,7 +140,7 @@ export default class Home extends React.Component {
                                     <div class="icon-box">
                                         <div class="icon"><i class="fas fa-wifi"></i></div>
                                         <h4><a href="">Connected to internet</a></h4>
-                                        <p>Assisting users to do their written work or in solving MCQ examEnabling or to search on Google.</p>
+                                        <p>Assisting users to do their written work or in solving MCQ exam or Enabling to search on Google.</p>
                                     </div>
                                 </div>
 
@@ -168,7 +166,7 @@ export default class Home extends React.Component {
                     </section>
                     {/* end of services */}
                     {/* ---------payment section --------*/}
-                    <section id="payment" class="payment section-bg">
+                    <section id="payment" class="payment section-bg ">
                         <div class="container">
 
                             <div class="section-title">
@@ -242,14 +240,8 @@ export default class Home extends React.Component {
                             </div>
                         </div>
 
-
-
                         <div class="container">
                             <div class="row mt-5">
-
-
-
-                                
 
                                 <div class="col-lg-8 mt-5 mt-lg-0">
 
@@ -268,11 +260,7 @@ export default class Home extends React.Component {
                                         <div class="form-group mt-3">
                                             <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                                         </div>
-                                        <div class="my-3">
-                                            <div class="loading">Loading</div>
-                                            <div class="error-message"></div>
-                                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                                        </div>
+                                       
                                         <div class="text-center"><button type="submit">Send Message</button></div>
                                     </form>
 
