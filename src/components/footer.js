@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Faculty of Computer and Information Sciences - Mansoura University ,Egypt</p>
                             </div>
                         </div>
                         <div class="col-lg-4">

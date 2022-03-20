@@ -90,9 +90,9 @@ export default class Home extends React.Component {
                                     </div>
 
                                     <div class="icon-box">
-                                        <div class="icon"><i class="bx bx-gift"></i></div>
-                                        <h4 class="title"><a href="">Gifts</a></h4>
-                                        <p class="description"> If you order 2 products you wil get 30% off</p>
+                                        <div class="icon"><i class="bx bx-user"></i></div>
+                                        <h4 class="title"><a href="">Usability</a></h4>
+                                        <p class="description"> The using of our product is smooth and not complex ,it doesn't require any former experience . </p>
                                     </div>
 
                                 </div>
